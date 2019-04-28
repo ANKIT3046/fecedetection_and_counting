@@ -17,10 +17,10 @@ sample
 unzip yad2k.zip file
 by !unzip yad2k.zip
 # yad2k
-  # models
+   models
     -keras_darknet19.py
     -keras_yolo.py
-  # utils
+   utils
     -__init__.py
     -utils.py
 !unzip model_data.zip
@@ -30,51 +30,51 @@ by !unzip yad2k.zip
   -yolo.h5
   -yolo_anchors.txt
   
-# yolo_utils.py
+### yolo_utils.py
   contain different functions
-   # read_classes,# read_anchors,# generate_colors,# scale_boxes,# preprocess_image,# draw_boxes
+    read_classes, read_anchors, generate_colors, scale_boxes, preprocess_image, draw_boxes
 
-# keras_yolo.py 
+### keras_yolo.py 
   contain diferent functions
-  # yolo_head,# yolo_boxes_to_corners,# preprocess_true_boxes,# yolo_loss,# yolo_body
+   yolo_head, yolo_boxes_to_corners, preprocess_true_boxes, yolo_loss, yolo_body
 
 
 ## steps how this project is made
-stpe1-
-impoer different  library
+# stpe1-
+## impoer different  library
   1.numpy
   2.pandas
   3.matplotlib
   4.scipy
   5.PIL
-  # 6.most importent tensorflow
+   6.most importent tensorflow
   7. keras
   8.yolo_utils.py
-step2 
-# then we use yolo algorithm to train our model
+# step2 
+## then we use yolo algorithm to train our model
 
-step3
-# Filtering with a threshold on class scores
+# step3
+## Filtering with a threshold on class scores
 
-step4
-# Non-max suppression
+# step4
+## Non-max suppression
 
-step5
-# Wrapping up the filtering
-step6
-# Test YOLO pretrained model on images
-step7
-#  Defining classes, anchors and image shape.
-step8
-# Loading a pretrained model
-step9
-# checking model summery
-step10
-#  Convert output of the model to usable bounding box tensors
-step11
-# Filtering boxes
-step12
-# At last run pridict function to pridict our model
+# step5
+## Wrapping up the filtering
+# step6
+## Test YOLO pretrained model on images
+# step7
+##  Defining classes, anchors and image shape.
+# step8
+## Loading a pretrained model
+# step9
+## checking model summery
+# step10
+##  Convert output of the model to usable bounding box tensors
+# step11
+## Filtering boxes
+# step12
+## At last run pridict function to pridict our model
 
 
 To test the model on your own images:
