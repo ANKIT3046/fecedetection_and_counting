@@ -82,7 +82,7 @@ To test the model on your own images:
 
 1. Add your image to this Jupyter Notebook's directory, in the "images" folder
 2. Write your image's name in the cell above code
-3. Run the code and see the output of the algorithm!
+3. Run the code and see the output of the algorithm
 
   
 
